@@ -5,7 +5,7 @@
 
 1. Создайте пустой репозиторий на сервисе github.com (или gitlab.com, или bitbucket.com).
 ```
-https://github.com/COTOPESq/lab002
+https://github.com/Dm1tryb1t/lab002
 ```
 2. Выполните инструкцию по созданию первого коммита на странице репозитория, созданного на предыдещем шаге.
 3. Создайте файл `hello_world.cpp` в локальной копии репозитория (который должен был появиться на шаге 2). Реализуйте программу **Hello world** на языке C++ используя плохой стиль кода. Например, после заголовочных файлов вставьте строку `using namespace std;`.
@@ -25,7 +25,7 @@ EOF
 5. Закоммитьте изменения с *осмысленным* сообщением.
 ```sh
 git add .
-git push --set-upstream origin main
+git push origin main
 ```
 6. Изменитьте исходный код так, чтобы программа через стандартный поток ввода запрашивалось имя пользователя. А в стандартный поток вывода печаталось сообщение `Hello world from @name`, где `@name` имя пользователя.
 ```sh
@@ -51,7 +51,7 @@ git commit -m"add..."
 ```
 8. Запуште изменения в удалёный репозиторий.
 ```sh
-git push --set-upstream origin main
+git push origin main
 ```
 9. Проверьте, что история коммитов доступна в удалёный репозитории.
 ```sh
@@ -59,26 +59,31 @@ git log
 ```
 Результат:
 ```
-commit 950b1ade84844eccc12fabf92d9fa1d825b11f57 (HEAD -> main, origin/main)
-Author: COTOPESq <slava20082005@gmail.com>
-Date:   Sat Apr 13 10:08:17 2024 +0300
+commit 0142029dcfec36ecfb39d0ba2c04c68adac978de (HEAD -> main, origin/main)
+Author: Dm1tryb1t <afanasevdima465@gmail.com>
+Date:   Thu May 30 10:58:44 2024 +0300
 
-    Add @name_user enter
+    red
 
-commit 58c898b6cbb15de90aac3def2cf9c71e033e5abc
-Author: COTOPESq <slava20082005@gmail.com>
-Date:   Sat Apr 13 10:01:05 2024 +0300
+commit a3bd1dcea42f10d4b4614b158f0d0f09ad18793d
+Author: Dm1tryb1t <afanasevdima465@gmail.com>
+Date:   Thu May 30 10:44:32 2024 +0300
 
-    add Hellow_world.cpp
+    add hellowrld
 
-commit ee73d3b7586c458efa2520bf659b7616e9da69c6
-Author: COTOPESq <slava20082005@gmail.com>
-Date:   Fri Apr 12 13:25:06 2024 +0300
+commit e365f8163f040ed1af66190919605689311f3673
+Author: Dm1try <144801808+Dm1tryb1t@users.noreply.github.com>
+Date:   Thu May 30 10:49:58 2024 +0300
 
-    added README.md and .gitignore
+    Update Hello_world.cpp
+
+commit 5a51fbc362d7a775185e8488a6cd3a60eff683a7
+Merge: 3cb4aac ddf9241
+Author: Dm1try <144801808+Dm1tryb1t@users.noreply.github.com>
+Date:   Thu May 30 10:48:55 2024 +0300
+
 
 ```
-
 ### Part II
 
 **Note:** *Работать продолжайте с теми же репоззиториями, что и в первой части задания.*
@@ -105,7 +110,7 @@ EOF
 ```sh
 git add .
 git commit -m"add..."
-git push --set-upstream origin patch1
+git push origin patch1
 ```
 4. Проверьте, что ветка `patch1` доступна в удалёный репозитории.
 ```
@@ -165,7 +170,7 @@ clang-format -i -style=Mozilla "Hello world.cpp"
 ```sh
 git add .
 git commit -m"add..."
-git push --set-upstream origin patch2
+git push origin patch2
 ```
 4. В ветке **master** в удаленном репозитории измените комментарии, например, расставьте знаки препинания, переведите комментарии на другой язык.
 ```
@@ -205,5 +210,5 @@ git push -f origin patch2
 - [LearnGitBranching](http://learngitbranching.js.org/)
 
 ```
-Copyright (c) 2015-2021 The ISC Authors
+Copyright (c) 2015-2024 The ISC Authors
 ```
