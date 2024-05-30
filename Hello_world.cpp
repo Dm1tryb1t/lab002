@@ -2,7 +2,7 @@
 #include <string> 
 
 int main(){
-string name;
+string name; //comment
 cout << "enter name: " << endl;
 cin >> name;
 cout << "Hello world " << name << endl;
